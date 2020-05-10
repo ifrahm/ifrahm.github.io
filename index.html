@@ -25,13 +25,13 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">Projects</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">projects</a>
     <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>Ifrah Mohamed</h1>
+        <h1>Ifrah Mohamed.</h1>
         <h2>Web Developer / Data Analyst / UX/UI Designer</h2>
         <div id="menu">
-            <a onclick="showabout()">Experience</a>
+            <a onclick="showabout()">About</a>
             <a onclick="showwork()">Project</a>
             <a onclick="showcontact()">Contact</a>
         </div>
@@ -40,25 +40,67 @@
                     <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://github.com/ifrahm" class="social"><i class="fab fa-github"></i></a></td>
                     <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://www.instagram.com/qveenifrah" class="social"><i class="fab fa-instagram"></i></a></td>
                     <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://www.linkedin.com/in/ifrahm22" class="social"><i class="fab fa-linkedin"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://www.linkedin.com/in/ifrahm22" class="social">Resume</i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="Ifrah Mohamed_copy.pdf" class="social">Resume</i></a></td>
                 </tr>
         </table>
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>works.</h1>
+        <h1>projects.</h1>
         <section>
-            <h2>work title</h2>
+            <h2>Furmilliar - 2020</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I worked on a protype for Furmilliar. Furmilliar is an app which allows animal lovers
+                to collect data about ferral cats. This data is collected and used by scientists to
+                support ferral cat research.
+            </p>
+
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Marvel App</div>
+            </div>
+            <button class="btn_one" onclick="window.location.href = 'https://marvelapp.com/62c70ce/screen/68487609';">App</button>
+
+
+
+            <h2>Whats That Word? - 2020 </h2>
+            <p>
+               With the use of varries API's available I used the Fetch API to asynchronously request
+               and process response data on my website. There is text box that the user can input 1
+               word and choose whether they would like a definition a movie title. Retrieving the
+               list of the top 10 results of the search
             </p>
             <div id="used">
                 <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
                 <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
                 <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
             </div>
-            <button class="btn_one">button 1</button>
-            <button class="btn_two">button 2</button>
+            <button class="btn_one" onclick="window.location.href = 'https://github.com/ifrahm/whats-that-word';" >Github</button>
+
+            <h2>A Helping Hand - 2019 </h2>
+            <p>
+              With my team I was able to create a comprehensive social platform designed to help the
+              elderly and their caretakers with activities. The website also also provides information
+              that is tailored to their situation, like possible assisted living facilities or physical
+              therapy.
+            </p>
+            <div id="used">
+              <div><i class="fas fa-circle"></i>&nbsp;Figma</div>
+            </div>
+            <button class="btn_one" onclick="window.location.href = 'https://ahelpinghandinfo200.weebly.com/';">Website</button>
+
+            <h2>Microsoft Visualization  - 2018</h2>
+            <p>During my internship at Microsoft, I turned large data sets into visual representations
+              through PowerBi, allowing trends and patterns to be easily seen by users. I helped my
+              team understand the value of inclusive design, information accessibility and implementing
+              colorblind testing. We incorporated plugins and tools to help test the accessibility
+              of the product we were designing.
+            </p>
+
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;PowerBi</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Excel</div>
+            </div>
+
         </section>
     </div>
     <div id="about_container" class="container">
@@ -103,11 +145,11 @@
             <section>
                 <h2>contact me</h2>
                 <p>
-                    <form>
+                    <form action="mailto:ifrah@uw.edu">
                         <input type="text" placeholder="name" required>
                         <input type="email" placeholder="email" required><br>
                         <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="btn_one">send</button>
+                        <button class="btn_one" >send</button>
                     </form>
                 </p>
             </section>
